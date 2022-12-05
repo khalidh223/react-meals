@@ -1,13 +1,7 @@
 import { Add } from "@mui/icons-material";
-import {
-  Button,
-  ListItem,
-  ListItemText,
-  Typography,
-} from "@mui/material";
+import { Button, ListItem, ListItemText, Typography } from "@mui/material";
 import React from "react";
 import AddRemoveMealButton from "./AddRemoveMealButton";
-
 
 const MealItem = ({ meal }) => {
   return (
@@ -22,7 +16,7 @@ const MealItem = ({ meal }) => {
           }
           secondary={meal.description}
         />
-        <AddRemoveMealButton/>
+        <AddRemoveMealButton />
       </ListItem>
       <ListItem sx={{ paddingTop: "0", marginTop: "0" }}>
         <ListItemText>

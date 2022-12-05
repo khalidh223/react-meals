@@ -1,9 +1,4 @@
-import {
-  Card,
-  CardContent,
-  Divider,
-  List,
-} from "@mui/material";
+import { Card, CardContent, Divider, List } from "@mui/material";
 import React from "react";
 import MealItem from "./MealItem";
 
@@ -49,7 +44,7 @@ const AvailableMeals = (props) => {
         <List sx={{ paddingBottom: "0" }}>
           {DUMMY_MEALS.map((meal, index) => (
             <>
-              <MealItem key={index} meal={meal}/>
+              <MealItem key={index} meal={meal} />
               {index !== DUMMY_MEALS.length - 1 ? <Divider /> : null}
             </>
           ))}

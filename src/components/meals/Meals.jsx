@@ -12,12 +12,12 @@ const Meals = (props) => {
         direction="column"
         alignItems="center"
         justifyContent="center"
-        mt={'-8rem'}
+        mt={"-8rem"}
       >
-        <Grid item sx={{width: '50%'}}>
+        <Grid item sx={{ width: "50%" }}>
           <MealSummary />
         </Grid>
-        <Grid item sx={{width: '70%'}}>
+        <Grid item sx={{ width: "70%" }}>
           <AvailableMeals />
         </Grid>
       </Grid>
